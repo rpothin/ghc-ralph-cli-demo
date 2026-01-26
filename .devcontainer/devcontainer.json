@@ -24,7 +24,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install -g ghcralph"
+	"postCreateCommand": "npm install -g ghcralph && cd /workspaces/ghc-ralph-cli-demo && rm -f .git/hooks/pre-push .git/hooks/post-checkout .git/hooks/post-commit .git/hooks/post-merge"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
