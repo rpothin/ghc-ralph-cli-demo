@@ -2,7 +2,11 @@
   "planSource": "local",
   "maxIterations": 10,
   "maxTokens": 100000,
-  "defaultModel": "gpt-4.1",
+  "defaultModel": "claude-sonnet-4.5",
   "autoCommit": true,
-  "branchPrefix": "ghcralph/"
+  "branchPrefix": "ghcralph/",
+  "maxRetriesPerTask": 2,
+  "autoPush": false,
+  "pushStrategy": "per-task",
+  "progressVerbosity": "standard"
 }
